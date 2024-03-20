@@ -1,0 +1,10 @@
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\bin\Debug\PedraPapelOuTesoura.exe.config
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\bin\Debug\PedraPapelOuTesoura.exe
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\bin\Debug\PedraPapelOuTesoura.pdb
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\obj\Debug\PedraPapelOuTesoura.csproj.AssemblyReference.cache
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\obj\Debug\PedraPapelOuTesoura.Form1.resources
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\obj\Debug\PedraPapelOuTesoura.Properties.Resources.resources
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\obj\Debug\PedraPapelOuTesoura.csproj.GenerateResource.cache
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\obj\Debug\PedraPapelOuTesoura.csproj.CoreCompileInputs.cache
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\obj\Debug\PedraPapelOuTesoura.exe
+C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\obj\Debug\PedraPapelOuTesoura.pdb
