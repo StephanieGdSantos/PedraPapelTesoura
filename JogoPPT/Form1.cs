@@ -68,15 +68,12 @@ namespace PedraPapelOuTesoura
             switch (pc)
             {
                 case 1:
-                    //pctRespostaPC.Load("../Debug/Imagens/pedraPC.png");
                     pctRespostaPC.Image = rdoPedra.Image;
                     break;
                 case 2:
-                    //pctRespostaPC.Load("../Debug/Imagens/papelPC.png");
                     pctRespostaPC.Image = rdoPapel.Image;
                     break;
                 case 3:
-                    //pctRespostaPC.Load("../Debug/Imagens/tesouraPC.jpg");
                     pctRespostaPC.Image = rdoTesoura.Image;
                     break;
                 default:

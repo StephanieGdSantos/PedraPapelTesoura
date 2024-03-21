@@ -49,7 +49,7 @@ namespace PedraPapelOuTesoura
             // 
             this.rdoPapel.Appearance = System.Windows.Forms.Appearance.Button;
             this.rdoPapel.Image = global::PedraPapelOuTesoura.Properties.Resources.papell;
-            this.rdoPapel.Location = new System.Drawing.Point(145, 169);
+            this.rdoPapel.Location = new System.Drawing.Point(148, 169);
             this.rdoPapel.Name = "rdoPapel";
             this.rdoPapel.Size = new System.Drawing.Size(110, 110);
             this.rdoPapel.TabIndex = 1;
@@ -159,7 +159,7 @@ namespace PedraPapelOuTesoura
             // btnJogar
             // 
             this.btnJogar.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnJogar.Location = new System.Drawing.Point(135, 299);
+            this.btnJogar.Location = new System.Drawing.Point(136, 295);
             this.btnJogar.Name = "btnJogar";
             this.btnJogar.Size = new System.Drawing.Size(132, 35);
             this.btnJogar.TabIndex = 3;
