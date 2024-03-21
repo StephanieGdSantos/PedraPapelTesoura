@@ -8,3 +8,13 @@ C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\obj\Debug\PedraP
 C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\obj\Debug\PedraPapelOuTesoura.csproj.CoreCompileInputs.cache
 C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\obj\Debug\PedraPapelOuTesoura.exe
 C:\Users\gomes\Desktop\Stephanie\ESTUDOS\C#\PedraPapelOuTesoura\obj\Debug\PedraPapelOuTesoura.pdb
+C:\Users\gomes\GITHUB\PedraPapelTesoura\JogoPPT\bin\Debug\PedraPapelOuTesoura.exe.config
+C:\Users\gomes\GITHUB\PedraPapelTesoura\JogoPPT\bin\Debug\PedraPapelOuTesoura.exe
+C:\Users\gomes\GITHUB\PedraPapelTesoura\JogoPPT\bin\Debug\PedraPapelOuTesoura.pdb
+C:\Users\gomes\GITHUB\PedraPapelTesoura\JogoPPT\obj\Debug\PedraPapelOuTesoura.csproj.AssemblyReference.cache
+C:\Users\gomes\GITHUB\PedraPapelTesoura\JogoPPT\obj\Debug\PedraPapelOuTesoura.Form1.resources
+C:\Users\gomes\GITHUB\PedraPapelTesoura\JogoPPT\obj\Debug\PedraPapelOuTesoura.Properties.Resources.resources
+C:\Users\gomes\GITHUB\PedraPapelTesoura\JogoPPT\obj\Debug\PedraPapelOuTesoura.csproj.GenerateResource.cache
+C:\Users\gomes\GITHUB\PedraPapelTesoura\JogoPPT\obj\Debug\PedraPapelOuTesoura.csproj.CoreCompileInputs.cache
+C:\Users\gomes\GITHUB\PedraPapelTesoura\JogoPPT\obj\Debug\PedraPapelOuTesoura.exe
+C:\Users\gomes\GITHUB\PedraPapelTesoura\JogoPPT\obj\Debug\PedraPapelOuTesoura.pdb

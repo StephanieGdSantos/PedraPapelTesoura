@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PedraPapelOuTesoura
@@ -65,12 +59,6 @@ namespace PedraPapelOuTesoura
         }
         private void BtnJogar_Click(object sender, EventArgs e)
         {
-            if (lblPlacarPC.Text == "3" || lblPlacarUsuario.Text == "3")
-            {
-                lblPlacarPC.Text = "0";
-                lblPlacarUsuario.Text = "0";
-                lblTitulo.Text = "PEDRA, PAPEL OU TESOURA?";
-            }
             Random limite = new Random();
             int pc = limite.Next(4);
             if (pc == 0)
@@ -80,13 +68,16 @@ namespace PedraPapelOuTesoura
             switch (pc)
             {
                 case 1:
-                    pctRespostaPC.Load("../Debug/Imagens/pedraPC.png");
+                    //pctRespostaPC.Load("../Debug/Imagens/pedraPC.png");
+                    pctRespostaPC.Image = rdoPedra.Image;
                     break;
                 case 2:
-                    pctRespostaPC.Load("../Debug/Imagens/papelPC.png");
+                    //pctRespostaPC.Load("../Debug/Imagens/papelPC.png");
+                    pctRespostaPC.Image = rdoPapel.Image;
                     break;
                 case 3:
-                    pctRespostaPC.Load("../Debug/Imagens/tesouraPC.jpg");
+                    //pctRespostaPC.Load("../Debug/Imagens/tesouraPC.jpg");
+                    pctRespostaPC.Image = rdoTesoura.Image;
                     break;
                 default:
                     break;
@@ -98,12 +89,28 @@ namespace PedraPapelOuTesoura
                 pontosUsuario = ContarPlacar(lblPlacarUsuario.Text);
                 lblPlacarUsuario.Text = pontosUsuario.ToString();
             }
-            if (pc == 1 && rdoTesoura.Checked || pc == 2 && rdoPedra.Checked || pc == 3 && rdoPapel.Checked)
+            else if (pc == 1 && rdoTesoura.Checked || pc == 2 && rdoPedra.Checked || pc == 3 && rdoPapel.Checked)
             {
                 pontosPC = ContarPlacar(lblPlacarPC.Text);
                 lblPlacarPC.Text = pontosPC.ToString();
             }
             lblTitulo.Text = Mensagem(pontosPC, pontosUsuario);
+            if (lblPlacarPC.Text == "3")
+            {
+                MessageBox.Show("Poxa! Não foi dessa vez :(");
+            }
+            else if (lblPlacarUsuario.Text == "3")
+            {
+                MessageBox.Show("Parabéns!! Você venceu :)");
+            }
+
+            if (lblPlacarPC.Text == "3" || lblPlacarUsuario.Text == "3")
+            {
+                lblPlacarPC.Text = "0";
+                lblPlacarUsuario.Text = "0";
+                lblTitulo.Text = "PEDRA, PAPEL OU TESOURA?";
+                pctRespostaPC.Image = null;
+            }
         }
 
         private void RdoPedra_CheckedChanged(object sender, EventArgs e)
@@ -139,6 +146,14 @@ namespace PedraPapelOuTesoura
             {
                 btnJogar.PerformClick();
             }
+        }
+
+        private void btnReiniciar_Click(object sender, EventArgs e)
+        {
+            lblPlacarPC.Text = "0";
+            lblPlacarUsuario.Text = "0";
+            lblTitulo.Text = "PEDRA, PAPEL OU TESOURA?";
+            pctRespostaPC.Image = null;
         }
     }
 }
